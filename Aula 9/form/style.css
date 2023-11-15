@@ -1,0 +1,35 @@
+body{
+	background-color: #ddd;
+}
+#tabela{
+	background-color: #fff;
+}
+
+#tabela a{
+	color: #1281e2;
+}
+th, td{
+	text-align: center;
+}
+
+#tabela th:first-child, #tabela th:last-child{
+	max-width: 100px;
+}
+
+#tabela tr:nth-child(even){
+	background-color: #ddd;
+}
+
+#tabela tr:nth-child(odd){
+	background-color: aquamarine;
+}
+
+td:nth-child(3){
+	color: #1281e2;
+	font-weight: bold;
+}
+
+tr:nth-child(3n+1){
+	color: green;
+	font-weight: bold;
+}

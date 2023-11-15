@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Cadastro e Listagem de Pontos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro e Listagem de Pontos</h1>
+  </header>
+  <main>
+    <section class="motivo" style="display: inline-block">
+      <label for="motivo">Motivo:</label>
+      <input type="text" id="motivo" placeholder="Motivo do ponto">
+    </section>
+    <section class="data" style="display: inline-block">
+      <label for="data">Data:</label>
+      <input type="date" id="data" placeholder="DD/MM/AAAA">
+    </section>
+    <section class="tipo" style="display: inline-block">
+      <label for="tipo">Tipo:</label>
+      <select id="tipo">
+        <option value="entrada">Entrada</option>
+        <option value="saida">Saída</option>
+      </select>
+    </section>
+    <section class="registrar" style="display: inline-block">
+      <button type="button">Registrar</button>
+    </section>
+
+    <section class="registros">
+      <table border="1px"> 
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Entrada</th>
+            <th>Saída</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/08/2023</td>
+            <td>09:00</td>
+            <td>18:00</td>
+          </tr>
+          <tr>
+            <td>02/08/2023</td>
+            <td>19:00</td>
+            <td>21:00</td>
+          </tr>
+          <tr>
+            <td>03/08/2023</td>
+            <td>08:30</td>
+            <td>17:15</td>
+          </tr>
+          <tr>
+            <td>04/08/2023</td>
+            <td>10:15</td>
+            <td>18:30</td>
+          </tr>
+          <tr>
+            <td>05/08/2023</td>
+            <td>19:15</td>
+            <td>21:45</td>
+          </tr>
+          <tr>
+            <td>06/08/2023</td>
+            <td>09:20</td>
+            <td>17:30</td>
+          </tr>
+          <tr>
+            <td>07/08/2023</td>
+            <td>18:15</td>
+            <td>21:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>Sistema de gestão de ponto</p>
+  </footer>
+</body>
+</html>
